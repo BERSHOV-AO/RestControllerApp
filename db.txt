@@ -1,0 +1,11 @@
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    surname VARCHAR(255),
+    department VARCHAR(255),
+    salary INT
+);
+
+
+INSERT INTO employees (name, surname, department, salary)
+VALUES ('John', 'Doe', 'IT', 60000);
